@@ -1,0 +1,495 @@
+{
+    "Objects": {
+        "sign": {
+            "Attributes": {
+                "blue": 1
+            }
+        },
+        "socks": {
+            "Attributes": {
+                "white": 1
+            }
+        },
+        "shorts": {
+            "Attributes": {
+                "gray": 1
+            }
+        },
+        "roof": {
+            "Attributes": {
+                "white": 1
+            }
+        },
+        "logo": {
+            "Attributes": {
+                "black": 1
+            }
+        },
+        "frisbee": {
+            "Attributes": {
+                "yellow": 1
+            }
+        },
+        "hair": {
+            "Attributes": {
+                "brown": 1
+            }
+        },
+        "wheel": {
+            "Attributes": {
+                "black": 1
+            }
+        },
+        "teeth": {
+            "Attributes": {
+                "white": 1
+            }
+        },
+        "bike": {
+            "Attributes": {
+                "white": 1
+            }
+        },
+        "man": {
+            "Attributes": {
+                "crouched": 1
+            }
+        },
+        "door": {
+            "Attributes": {
+                "open": 1
+            }
+        },
+        "book": {
+            "Attributes": {
+                "open": 1
+            }
+        },
+        "eye_glasses": {
+            "Attributes": {
+                "black": 1
+            }
+        },
+        "floor": {
+            "Attributes": {
+                "metal": 1,
+                "gray": 1
+            }
+        },
+        "pants": {
+            "Attributes": {
+                "dark": 1
+            }
+        },
+        "shirt": {
+            "Attributes": {
+                "brown": 1,
+                "striped": 1,
+                "long_sleeved": 1
+            }
+        },
+        "trees": {
+            "Attributes": {
+                "green": 1
+            }
+        },
+        "banana": {
+            "Attributes": {
+                "unpeeled": 1,
+                "attached": 1
+            }
+        },
+        "table": {
+            "Attributes": {
+                "black": 1
+            }
+        },
+        "plate": {
+            "Attributes": {
+                "light_colored": 1,
+                "white": 1,
+                "square": 1
+            }
+        }
+    },
+    "Relations": {
+        "of": [
+            {
+                "nose": 1,
+                "man": 0
+            },
+            {
+                "eyes": 1,
+                "man": 0
+            },
+            {
+                "ear": 1,
+                "man": 0
+            },
+            {
+                "shoe": 1,
+                "man": 0
+            },
+            {
+                "nose": 1,
+                "girl": 0
+            },
+            {
+                "hand": 1,
+                "girl": 0
+            },
+            {
+                "head": 1,
+                "girl": 0
+            },
+            {
+                "feet": 1,
+                "girl": 0
+            },
+            {
+                "eye": 1,
+                "girl": 0
+            }
+        ],
+        "to_the_right_of": [
+            {
+                "nose": 1,
+                "roof": 0
+            },
+            {
+                "eyes": 1,
+                "roof": 0
+            },
+            {
+                "eyes": 1,
+                "nose": 0
+            },
+            {
+                "sign": 1,
+                "man": 0
+            },
+            {
+                "ear": 1,
+                "roof": 0
+            },
+            {
+                "shorts": 2,
+                "shoe": 0
+            },
+            {
+                "shorts": 1,
+                "woman": 0
+            },
+            {
+                "shorts": 1,
+                "foot": 0
+            },
+            {
+                "shorts": 1,
+                "socks": 0
+            },
+            {
+                "logo": 1,
+                "roof": 0
+            },
+            {
+                "nose": 1,
+                "eye": 0
+            },
+            {
+                "hand": 1,
+                "legs": 0
+            },
+            {
+                "legs": 1,
+                "feet": 0
+            },
+            {
+                "man": 1,
+                "door": 0
+            },
+            {
+                "man": 1,
+                "window": 0
+            },
+            {
+                "man": 1,
+                "lock": 0
+            },
+            {
+                "head": 1,
+                "window": 0
+            },
+            {
+                "head": 1,
+                "door": 0
+            },
+            {
+                "book": 1,
+                "door": 0
+            },
+            {
+                "book": 1,
+                "lock": 0
+            },
+            {
+                "sandals": 1,
+                "door": 0
+            },
+            {
+                "eye_glasses": 1,
+                "door": 0
+            },
+            {
+                "eye_glasses": 1,
+                "window": 0
+            },
+            {
+                "hands": 1,
+                "door": 0
+            },
+            {
+                "hands": 1,
+                "lock": 0
+            },
+            {
+                "pants": 1,
+                "door": 0
+            },
+            {
+                "seat": 1,
+                "door": 0
+            },
+            {
+                "shirt": 1,
+                "lock": 0
+            },
+            {
+                "shirt": 1,
+                "hands": 0
+            },
+            {
+                "shirt": 1,
+                "door": 0
+            },
+            {
+                "trees": 1,
+                "door": 0
+            },
+            {
+                "trees": 1,
+                "window": 0
+            }
+        ],
+        "to_the_left_of": [
+            {
+                "nose": 1,
+                "eyes": 0
+            },
+            {
+                "socks": 1,
+                "shorts": 0
+            },
+            {
+                "woman": 1,
+                "shorts": 0
+            },
+            {
+                "shoe": 1,
+                "shorts": 0
+            },
+            {
+                "roof": 1,
+                "logo": 0
+            },
+            {
+                "roof": 1,
+                "eyes": 0
+            },
+            {
+                "roof": 1,
+                "nose": 0
+            },
+            {
+                "roof": 1,
+                "ear": 0
+            },
+            {
+                "foot": 1,
+                "shorts": 0
+            },
+            {
+                "frisbee": 1,
+                "man": 0
+            },
+            {
+                "feet": 1,
+                "legs": 0
+            },
+            {
+                "legs": 1,
+                "hand": 0
+            },
+            {
+                "door": 1,
+                "sandals": 0
+            },
+            {
+                "door": 1,
+                "book": 0
+            },
+            {
+                "door": 1,
+                "seat": 0
+            },
+            {
+                "door": 1,
+                "pants": 0
+            },
+            {
+                "door": 1,
+                "eye_glasses": 0
+            },
+            {
+                "door": 1,
+                "shirt": 0
+            },
+            {
+                "door": 1,
+                "trees": 0
+            },
+            {
+                "door": 1,
+                "man": 0
+            },
+            {
+                "door": 1,
+                "head": 0
+            },
+            {
+                "door": 1,
+                "hands": 0
+            },
+            {
+                "lock": 1,
+                "hands": 0
+            },
+            {
+                "lock": 1,
+                "shirt": 0
+            },
+            {
+                "lock": 1,
+                "man": 0
+            },
+            {
+                "lock": 1,
+                "book": 0
+            },
+            {
+                "hands": 1,
+                "shirt": 0
+            },
+            {
+                "window": 1,
+                "man": 0
+            },
+            {
+                "window": 1,
+                "head": 0
+            },
+            {
+                "window": 1,
+                "trees": 0
+            },
+            {
+                "window": 1,
+                "eye_glasses": 0
+            }
+        ],
+        "reading": [
+            {
+                "man": 1,
+                "book": 0
+            }
+        ],
+        "wearing": [
+            {
+                "man": 1,
+                "sandals": 0
+            },
+            {
+                "man": 1,
+                "eye_glasses": 0
+            },
+            {
+                "man": 1,
+                "shirt": 0
+            },
+            {
+                "man": 1,
+                "pants": 0
+            }
+        ],
+        "holding": [
+            {
+                "man": 1,
+                "book": 0
+            }
+        ],
+        "on": [
+            {
+                "man": 1,
+                "train_car": 0
+            },
+            {
+                "banana": 1,
+                "plate": 0
+            },
+            {
+                "banana": 1,
+                "table": 0
+            },
+            {
+                "plate": 1,
+                "table": 0
+            }
+        ],
+        "in": [
+            {
+                "man": 1,
+                "train_car": 0
+            }
+        ],
+        "under": [
+            {
+                "table": 1,
+                "plate": 0
+            }
+        ],
+        "below": [
+            {
+                "table": 1,
+                "plate": 0
+            }
+        ],
+        "with": [
+            {
+                "plate": 2,
+                "banana": 0
+            }
+        ],
+        "on_top_of": [
+            {
+                "plate": 1,
+                "table": 0
+            }
+        ],
+        "above": [
+            {
+                "plate": 1,
+                "table": 0
+            }
+        ]
+    }
+}
